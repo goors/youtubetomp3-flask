@@ -1,10 +1,7 @@
-from flask import Flask, request, render_template, g, flash, redirect, url_for, jsonify, session
+from flask import Flask, request, render_template, g, jsonify
 import sqlite3
 import os
-import json
-import socket
 from pytube import YouTube
-from pprint import pprint
 from subprocess import call
 import base64
 import datetime
@@ -59,7 +56,6 @@ def convert():
         name = yt.filename.encode("UTF-8")
         yt.filename = base64.b64encode(name)
         video = yt.get('mp4', '360p')
-        #print base64.b64decode(yt.filename)
         video.download('/tmp/')
 
         mp4 = yt.filename
