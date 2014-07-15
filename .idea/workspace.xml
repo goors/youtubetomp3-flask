@@ -23,15 +23,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="schema.sql" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schema.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="12" selection-start="63" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="run.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="0" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.42910448" vertical-offset="525" max-vertical-offset="1350">
+            <state line="93" column="25" selection-start="2522" selection-end="2522" vertical-scroll-proportion="0.7534766" vertical-offset="694" max-vertical-offset="1485">
               <folding>
-                <element signature="e#0#61#0" expanded="true" />
-                <marker date="1405442251000" expanded="true" signature="1515:1624" placeholder="insert into ..." />
+                <marker date="1405451900000" expanded="true" signature="1385:1457" placeholder="select id,ti..songs..." />
+                <marker date="1405451900000" expanded="true" signature="1546:1595" placeholder="update songs..." />
+                <marker date="1405451900000" expanded="true" signature="1546:1580" placeholder="update songs..." />
+                <marker date="1405451900000" expanded="true" signature="1546:1614" placeholder="update songs..." />
+                <marker date="1405451900000" expanded="true" signature="1546:1666" placeholder="update songs..." />
+                <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+                <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+                <marker date="1405451900000" expanded="true" signature="1962:2071" placeholder="insert into ..." />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="20" selection-start="102" selection-end="102" vertical-scroll-proportion="-2.7777777" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -44,19 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shutil.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="11" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.0" vertical-offset="1815" max-vertical-offset="8430">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="39" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="2235">
+            <state line="75" column="31" selection-start="2324" selection-end="2324" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="2265">
               <folding />
             </state>
           </provider>
@@ -74,9 +92,10 @@
       <list>
         <option value="$PROJECT_DIR$/schema.sql" />
         <option value="$PROJECT_DIR$/templates/home/index.html" />
-        <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/nohup.out" />
         <option value="$PROJECT_DIR$/appconfig.py" />
+        <option value="$PROJECT_DIR$/templates/layout.html" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/run.py" />
       </list>
     </option>
@@ -111,6 +130,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -142,10 +162,13 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="songs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,6 +179,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -352,7 +376,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27110156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27825466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -360,11 +384,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -384,12 +408,65 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="12" selection-start="63" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1350">
+        <state line="13" column="50" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1560">
           <folding>
-            <element signature="e#0#61#0" expanded="true" />
-            <marker date="1405442251000" expanded="true" signature="1515:1624" placeholder="insert into ..." />
+            <marker date="1405451900000" expanded="true" signature="1385:1457" placeholder="select id,ti..songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1595" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1580" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1614" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1666" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1962:2071" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="31" selection-start="2324" selection-end="2324" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="2265">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="25" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1470">
+          <folding>
+            <marker date="1405451900000" expanded="true" signature="1385:1457" placeholder="select id,ti..songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1595" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1580" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1614" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1666" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1962:2071" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
@@ -403,9 +480,42 @@
     </entry>
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="11" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.0" vertical-offset="1815" max-vertical-offset="8430">
+        <state line="121" column="11" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.0" vertical-offset="1815" max-vertical-offset="8430" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="39" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="2235">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1350">
+          <folding>
+            <marker date="1405451900000" expanded="true" signature="1385:1457" placeholder="select id,ti..songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1595" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1580" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1614" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1666" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1962:2071" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="11" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.0" vertical-offset="1815" max-vertical-offset="8430" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
@@ -419,8 +529,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="49" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1410">
           <folding>
-            <element signature="e#0#61#0" expanded="true" />
-            <marker date="1405442251000" expanded="true" signature="1515:1624" placeholder="insert into ..." />
+            <marker date="1405451900000" expanded="true" signature="1385:1457" placeholder="select id,ti..songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1595" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1580" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1614" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1666" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1962:2071" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
@@ -434,9 +550,7 @@
     </entry>
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="11" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.0" vertical-offset="1815" max-vertical-offset="8430">
-          <folding />
-        </state>
+        <state line="121" column="11" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.0" vertical-offset="1815" max-vertical-offset="8430" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
@@ -455,8 +569,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="62" selection-start="1943" selection-end="1943" vertical-scroll-proportion="0.0" vertical-offset="878" max-vertical-offset="1530">
           <folding>
-            <element signature="e#0#61#0" expanded="true" />
-            <marker date="1405442251000" expanded="true" signature="1515:1624" placeholder="insert into ..." />
+            <marker date="1405451900000" expanded="true" signature="1385:1457" placeholder="select id,ti..songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1595" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1580" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1614" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1666" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1962:2071" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
@@ -477,17 +597,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="66" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="1320">
           <folding>
-            <element signature="e#0#61#0" expanded="true" />
-            <marker date="1405442251000" expanded="true" signature="1515:1624" placeholder="insert into ..." />
+            <marker date="1405451900000" expanded="true" signature="1385:1457" placeholder="select id,ti..songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1595" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1580" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1614" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1666" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1962:2071" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="515" column="4" selection-start="16424" selection-end="16424" vertical-scroll-proportion="0.0" vertical-offset="7457" max-vertical-offset="24120">
-          <folding />
-        </state>
+        <state line="515" column="4" selection-start="16424" selection-end="16424" vertical-scroll-proportion="0.0" vertical-offset="7457" max-vertical-offset="24120" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
@@ -506,8 +630,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="24" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1230">
           <folding>
-            <element signature="e#0#61#0" expanded="true" />
-            <marker date="1405442251000" expanded="true" signature="1515:1624" placeholder="insert into ..." />
+            <marker date="1405451900000" expanded="true" signature="1385:1457" placeholder="select id,ti..songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1595" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1580" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1614" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1666" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1962:2071" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
@@ -528,8 +658,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="900">
           <folding>
-            <element signature="e#0#61#0" expanded="true" />
-            <marker date="1405442251000" expanded="true" signature="1515:1624" placeholder="insert into ..." />
+            <marker date="1405451900000" expanded="true" signature="1385:1457" placeholder="select id,ti..songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1595" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1580" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1614" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1666" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1962:2071" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
@@ -563,28 +699,17 @@
     </entry>
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="515" column="4" selection-start="16424" selection-end="16424" vertical-scroll-proportion="0.3341646" vertical-offset="7457" max-vertical-offset="24120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="208" selection-end="208" vertical-scroll-proportion="0.11553273" vertical-offset="0" max-vertical-offset="779" />
+        <state line="515" column="4" selection-start="16424" selection-end="16424" vertical-scroll-proportion="0.3341646" vertical-offset="7457" max-vertical-offset="24120" />
       </provider>
     </entry>
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="11" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.0" vertical-offset="1457" max-vertical-offset="8340">
-          <folding />
-        </state>
+        <state line="121" column="11" selection-start="3374" selection-end="3374" vertical-scroll-proportion="0.0" vertical-offset="1457" max-vertical-offset="8340" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nohup.out">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4440">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home/index.html">
@@ -596,24 +721,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appconfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="804">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="804" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="12" selection-start="63" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="39" selection-start="2846" selection-end="2846" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="2235">
+        <state line="75" column="31" selection-start="2324" selection-end="2324" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="2265">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="102" selection-end="102" vertical-scroll-proportion="-2.7777777" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.42910448" vertical-offset="525" max-vertical-offset="1350">
+        <state line="93" column="25" selection-start="2522" selection-end="2522" vertical-scroll-proportion="0.7534766" vertical-offset="694" max-vertical-offset="1485">
           <folding>
-            <element signature="e#0#61#0" expanded="true" />
-            <marker date="1405442251000" expanded="true" signature="1515:1624" placeholder="insert into ..." />
+            <marker date="1405451900000" expanded="true" signature="1385:1457" placeholder="select id,ti..songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1595" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1580" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1614" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1666" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1546:1615" placeholder="update songs..." />
+            <marker date="1405451900000" expanded="true" signature="1962:2071" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>

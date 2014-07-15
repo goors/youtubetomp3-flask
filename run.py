@@ -11,7 +11,7 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 
 app.config.update(dict(
-    DATABASE=os.path.join(app.root_path, "apidocs.db"),
+    DATABASE=os.path.join(app.root_path, "database.db"),
     DEBUG=True,
     SECRET_KEY='0209012'
     )
@@ -45,7 +45,7 @@ def init_db():
         db.commit()
 
 
-@app.route('/doconvert', methods=['POST','GET'])
+@app.route('/doconvert', methods=['POST'])
 def convert():
 
     if (request.form):
@@ -55,11 +55,25 @@ def convert():
         yt.url = url
         name = yt.filename.encode("UTF-8")
         yt.filename = base64.b64encode(name)
-        video = yt.get('mp4', '360p')
-        video.download('/tmp/')
+
 
         mp4 = yt.filename
         mp3name = base64.b64decode(yt.filename)
+
+        #check against db
+        db = get_db()
+        cur = db.execute('select id,timesdownloaded from songs where base64name=? order by id desc', (mp4+".mp3",))
+        one = cur.fetchone()
+
+        if(one):
+            db.execute('update songs set timesdownloaded=?, lastdownload=? WHERE base64name=?',[one[1]+1, datetime.datetime.now(), mp4+'.mp3' ])
+            db.commit()
+            return jsonify({'location': 1, "name":mp3name+".mp3"})
+
+        video = yt.get('mp4', '360p')
+        video.download('/tmp/')
+
+
         call(["ffmpeg -i /tmp/"+mp4+".mp4 -b:a 128K -vn /tmp/"+mp4+".mp3"],shell=True)
 
 
@@ -70,13 +84,15 @@ def convert():
         db.commit()
 
         shutil.copy2("/tmp/"+mp4+".mp3", "static/songs/"+mp3name+".mp3")
+        os.remove("/tmp/"+mp4+".mp3")
+        os.remove("/tmp/"+mp4+".mp4")
+
         return jsonify({'location': 1, "name":mp3name+".mp3"})
 
     return jsonify({'message': "There was an error. Something is missing in input."})
 
-@app.route('/', methods=['POST', 'GET'])
+@app.route('/', methods=['GET'])
 def home():
-
     return render_template('home/index.html')
 
 
